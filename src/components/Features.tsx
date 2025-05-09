@@ -69,8 +69,9 @@ const Features: React.FC = () => {
     },
     {
       icon: <Bot size={28} className="text-indigo-600" />,
-      title: 'AI Assistant for Learning',
-      description: 'Get smart suggestions and learn faster with our AI-powered coding assistant.',
+      title: 'Notes Taking',
+      description: 'Capture and organize your thoughts with a powerful notes editor that supports rich text formatting.',
+      href: 'https://notes-indol-seven.vercel.app/',
     },
     {
       icon: <Share2 size={28} className="text-indigo-600" />,
