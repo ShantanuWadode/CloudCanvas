@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Code, Edit3, BookOpen, Bot, Share2, MessageSquare } from 'lucide-react';
+import { Code, Edit3, BookOpen, Bot,  MessageSquare, PartyPopper } from 'lucide-react';
 import FeatureCard from './ui/FeatureCard';
 
 interface Feature {
@@ -74,10 +74,12 @@ const Features: React.FC = () => {
       href: 'https://notes-indol-seven.vercel.app/',
     },
     {
-      icon: <Share2 size={28} className="text-indigo-600" />,
-      title: 'Version Control & Cloud Save',
-      description: 'Keep track of changes and access your work from anywhere with automatic cloud backups.',
+      icon: <PartyPopper size={28} className="text-indigo-600" />,
+      title: 'Team Celebration Wall',
+      description: 'Celebrate birthdays, achievements, and milestones with a shared team wall.',
+      href: 'https://team-celebration-wall.vercel.app/',
     },
+    
     {
       icon: <MessageSquare size={28} className="text-indigo-600" />,
       title: 'Community Discussion Forum',
